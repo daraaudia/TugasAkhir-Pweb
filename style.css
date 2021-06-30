@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-image: url(img/waves.png);
+}
+
+header {
+	display: inline;
+}
+
+nav	{
+	display: flex;
+	background-color: #00ccff;
+	justify-content: space-around;
+	color: white;
+	height: 50px;
+	align-items: center;
+	
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	width: 40%;
+	justify-content: space-between;
+}
+
+nav .logo {
+	font-family: 'Pacifico', cursive;
+	letter-spacing: 5px;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+nav a:hover {
+	font-weight: bold;
+}
+
+main {
+	padding: 30px;
+	padding-left: 30px;
+	overflow: auto;
+}
+
+.card {
+	box-shadow: 0 2px 5px 0 rgba(0,0,0.5);
+	border-radius: 3px;
+	padding: 30px;
+	margin-top: 30px;
+	background-color: #b3f0ff;
+}
+
+.footer {
+	padding: 10px;
+	color: white;
+	background-color: #00ccff;
+	font-weight: bold;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+} 
+
+.footerr {
+	padding: 10px;
+	color: white;
+	background-color: #00ccff;
+	font-weight: bold;
+}
+
+.cardd {
+	box-shadow: 0 2px 5px 0 rgba(0,0,0.1);
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 20px;
+	background-color: #b3f0ff;
+	width: 600px;
+	height: 400px;
+}
+
+#submitbtn, #resetbtn {
+	background: #00ccff;
+	border: none;
+	border-radius: 21px;
+	box-shadow: 0px 1px 8px #0f2027;
+	cursor: pointer;
+	color: white;
+	font-family: sans-serif;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 80px;
+}
+
+.container {
+	display: flex;
+	padding: 45px;
+}
+
+.error{
+	color: #FF0000;
+}
+
+.card1 {
+    width: 700;
+ 	margin: 0 auto 0 auto;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0.5);
+    padding: 30px;
+    margin-top: 30px;
+    background-color: #b3f0ff;
+}
