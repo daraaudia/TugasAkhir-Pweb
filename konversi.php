@@ -113,33 +113,33 @@
                 </table>
                 </center>
             </form>
-            <?php
+<!--             <?php
 
-            if(!empty ($_POST['bilprima'])){
-                $bil = $_POST['bilprima'];
-                $statusbil = "PRIMA";
-                if($bil == 1){
-                        $statusbil="Tidak Prima";
+            //if(!empty ($_POST['bilprima'])){
+                //$bil = $_POST['bilprima'];
+                //$statusbil = "PRIMA";
+                //if($bil == 1){
+                  //      $statusbil="Tidak Prima";
                     }
-                for($i=2;$i<=$bil-1;$i++){
-                    if($bil % $i ==0){
-                        $statusbil="Tidak Prima";
-                        break;
-                    }
+                //for($i=2;$i<=$bil-1;$i++){
+                  //  if($bil % $i ==0){
+                    //    $statusbil="Tidak Prima";
+                      //  break;
+                    //}
         
-            }
+            //}
 
-            echo "<center><strong><font color=black font face='Segoe Script' size='4pt'>Angka ".$bil." adalah Bilangan $statusbil</font></strong></center>";
-            }
+           // echo "<center><strong><font color=black font face='Segoe Script' size='4pt'>Angka ".$bil." adalah Bilangan $statusbil</font></strong></center>";
+            //}
 
-            ?>
-        </div> -->
-        <div class="back">
+            //?> -->
+       </div> -->
+<!--         <div class="back">
             <center>
                 <h4>Ingin Kembali Ke Home?</h4>
                 <p><button type="submit" id="submitbtn"><a href="home.php" style="text-decoration: none;">Click</a></button></p>
             </center>
-        </div>
+        </div> -->
         <div class="footerr" align="center">
             <p><?php echo "Copy Right @dara.audia"; ?></p>
         </div>
