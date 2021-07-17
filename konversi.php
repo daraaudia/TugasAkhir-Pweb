@@ -89,7 +89,7 @@
             <br>
         </div>
 
-        <div class="card1">
+<!--         <div class="card1">
             <form method="POST" id="form" action="<?php print $_SERVER['PHP_SELF']?>" >
                 <center>
                 <table>
@@ -133,7 +133,7 @@
             }
 
             ?>
-        </div>
+        </div> -->
         <div class="back">
             <center>
                 <h4>Ingin Kembali Ke Home?</h4>
